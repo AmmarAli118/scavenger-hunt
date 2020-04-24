@@ -8,34 +8,80 @@ function HomePage() {
       <Grid centered columns={2}>
         <Grid.Column>
           <div className="reg-container">
-          <div style={{fontSize: "30px", marginBottom: "10px"}}>Welcome to the hunt!</div>
-            Below are links to two pages you'll find helpful: the hunt map and the list of clues.
+          <div style={{fontSize: "30px", marginBottom: "10px"}}> !Ramadaan Mubarak! <br/><br/> Welcome to the hunt</div><br/><br/>
+            
+          <div style={{fontSize: "20px", marginBottom: "10px"}}>Objective:</div>
+            Complete the hidden task. 
+            <br/>
+            <br/>
+            <div style={{fontSize: "20px", marginBottom: "10px"}}>How to win:</div>
+            - To decode the hidden task, you must identify the 5 critical clues.<br/>
+            - To identify the critical clues, you must solve 5 puzzles.<br/>
+            - To solve the 5 puzzles, you must find them on the map.<br/>
+            - To find them on the map, you must complete the 5 coordinates.<br/>
+            - To complete the coordintes, you must solve the 5 riddles below.<br/>
+            <br/>
+            
+            Below are links to two pages you'll find helpful:
             <div style={{height: "15px"}}></div>
-            <ButtonSet/>
+              <ButtonSet/>
             <div style={{height: "25px"}}></div>
-            <div style={{fontSize: "20px", marginBottom: "10px"}}>What do the clues mean?</div>
-            The clues won't really be important until the end of the game, so don't worry too much about them now.  The main thing you should know is that you'll be solving <span className="red-underline">five puzzles</span>, and each puzzle's answer will be a <span className="red-underline">number</span>.  The five numbers you get from solving these puzzles will tell you which of the clues are important.  As the final part of the hunt, Shannon will give you one final clue that will (hopefully) help you figure out how these five clues fit together.<br/><br/>
-            <div style={{fontSize: "20px", marginBottom: "10px"}}>How do we know if we have the right answer?</div>
-            It's a good sign if the number you get is one of the numbers on the list of clues.  Also, when you get the answer, it should hopefully be obvious -- the puzzles are designed to have "aha" moments.<br/><br/>
+            
             <div style={{fontSize: "20px", marginBottom: "10px"}}>How do we use the map?</div>
-            In order to find these five puzzles, you'll have to "visit" five places on the map.  The way you'll visit them is by replacing "home" in the URL above with a word or two describing what you see at that location.  For example, if you were told to visit <span className="red-underline">F15</span> on the map, you would navigate to <span className="red-underline">/crab</span>. You'll know if you've gone to the right address.<br/><br/>
-            <div style={{fontSize: "20px", marginBottom: "10px"}}>How do we start?</div>
-            You'll start by figuring out the answers to the questions below!  Answering each question will give you a letter.  At the start of the hunt, Shannon will announce five numbers that you can pair with these letters (in order) to give you <span className="red-underline">five sets of coordinates</span>. (These questions are not meant to be difficult, so don't overthink them.)<br/><br/>
+            In order to find these five puzzles, you'll have to "visit" five places on the map.  
+            For example, if you were told to visit <span className="red-underline">F15</span> and saw a crab on the map, 
+            you would navigate to <span className="red-underline">/crab</span> in the URL above replacing '/home'. 
+            (You'll know if you've gone to the right address.)<br/><br/>
 
+            <div style={{fontSize: "20px", marginBottom: "10px"}}>And one last thing!</div>
+            As the final part of the hunt, Ammar will give you one final critical clue that will (hopefully) help you figure out how these five clues fit together; thus decoding the hidden task. <br/><br/>
+            {/* the final destination is '/toilet' I can come up with a punzzle for this that can maybe do something with cards? */}
+
+            <div style={{fontSize: "20px", marginBottom: "10px"}}>How do we start?</div>
+            {/* 9-8-11-8-12 */}
+            You'll start by figuring out the answers to the questions below!  Answering each question will give you a letter.
+              At the start of the hunt, Ammar will reveal five numbers that you can pair with these letters (in order) 
+              to give you <span className="red-underline">five sets of coordinates</span>
+
+            <br/><br/><br/>
+            <div style={{fontSize: "20px", marginBottom: "10px"}}>Questions:</div>
             <div style={{textAlign: "left"}}>
-            1. Bob wishes to travel from 14th and K streets NW to the U.S. Capitol. What means of transportation should Bob probably NOT take?<br/><br/>T. Metro<br/>N. taxi<br/>Z. Uber<br/>D. gyrocopter<br/><br/>
-            2. Which of the following people have not played college football?<br/><br/>A. Silverberry Mouhon<br/>B. Taco Charlton<br/>C. Munchie Legeaux<br/>D. Cassanova McKinzy<br/>J. Nancy Pelosi<br/><br/>
-            3. Complete this song verse by filling in the blank:
-            <br/>"She’ll be coming ’round the mountain when she comes
-            <br/>"She’ll be coming ’round the mountain when she comes
-            <br/>"She’ll be coming ’round the mountain
-            <br/>"She’ll be coming ’round the mountain
-            <br/>"She’ll be coming ’round the mountain...
-            <br/><br/>B. "In time for the 4:30 staff meeting."
-            <br/>C. "Because there is no tunnel through the mountain."
-            <br/>D. "When she comes."<br/><br/>
-            4. What is the capital of Montana?<br/><br/>M. Montpelier<br/>S. Boise<br/>U. Some city in Montana<br/><br/>
-            5. The three bones of the middle ear are:<br/><br/>O. The tweezer, the spoon and the doorstop.<br/>R. The hammer, the anvil and the stirrup.<br/>X. The frog, the geranium and the harmonica.<br/>Z. Crosby, Stills and Nash.<br/><br/>
+            1. Where was Prophet Muhammad (PBUH) born?<br/>
+            <br/>T. Riyadh
+            <br/>D. Mecca
+            <br/>N. Jerusalem
+            <br/>Z. Medina
+            {/* /whitehouse D9 */}
+            <br/><br/>
+            2. How many months are in the lunar calendar? <br/>
+            <br/>A. 10
+            <br/>B. 11
+            <br/>J. 12
+            <br/>D. 13
+            <br/>C. 14
+            {/* /cheese J8 */}
+            <br/><br/>
+            3. Which sport is strangely associated with Christmas in Venezuela?
+            <br/>D. Skating
+            <br/>E. Football
+            <br/>B. Soccer
+            <br/>F. Archery
+            {/* /scuba D11 */}
+            <br/><br/>
+            Which two countries share the longest (or largest) international border?
+            <br/>A. Chile and Brazil 
+            <br/>M. China and Russia
+            <br/>S. USA and Mexico
+            <br/>U. Canada and USA
+            {/* /book U8 */}
+            <br/><br/>
+            5. How many board games does Ammar Bhai have?<br/>
+            <br/>O. 14
+            <br/>R. 24 
+            <br/>X. 21
+            <br/>Z. 19
+            {/* /astronaut R12 */}
+            <br/><br/>
             </div>
             <div style={{fontSize: "30px", marginBottom: "20px"}}>Good luck!</div>
           </div>

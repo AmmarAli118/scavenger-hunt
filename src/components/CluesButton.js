@@ -8,7 +8,7 @@ function MapButton() {
         id="button2"
         as={Link}
         to="/clues"
-      >Clues</Button>
+      >Critical Clues</Button>
   )
 }
 

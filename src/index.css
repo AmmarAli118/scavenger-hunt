@@ -2,11 +2,19 @@ body {
   /* background-color: #F4EAC0; */
   /* background-color: linen; */
   font-family: 'Josefin Sans', sans-serif;
+  background-image: url('ramadan-backgrounds-ramadan-kareem-background-vector-15698765.jpg');
+  background-size: 100% 110%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #clues-page {
   padding-top: 30px;
   text-align: center;
+  background-image: url('ramadan-backgrounds-ramadan-kareem-background-vector-15698765.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #clue-column {
@@ -16,14 +24,18 @@ body {
 }
 
 #home-page {
-  background-color: #C1A882;
+  /* background-color: #C1A882; */
+  background-image: url('ramadan-backgrounds-ramadan-kareem-background-vector-15698765.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   /* height: 100vh; */
   text-align: center;
   padding-top: 15px;
 }
 
 #map-page {
-  background-color: #C1A882;
+  /* background-color: #C1A882; */
   height: 100vh;
   text-align: center;
   padding-top: 15px;
@@ -68,7 +80,7 @@ body {
 }
 
 #flag-page {
-  background-color: #C1A882;
+  /* background-color: #C1A882; */
   height: 100vh;
   text-align: center;
   padding-top: 45px;
@@ -141,8 +153,8 @@ body {
 }
 
 #movie-page {
-  background-color: #C1A882;
-  height: 110vh;
+  /* background-color: #C1A882; */
+  /* height: 110vh; */
 }
 
 #video {
@@ -158,7 +170,7 @@ body {
 }
 
 #metro-page {
-  background-color: linen;
+  /* background-color: linen; */
   height: 100vh;
   text-align: center;
   padding-top: 15px;
@@ -168,12 +180,12 @@ body {
   background-color: white;
   font-family: 'Josefin Sans', sans-serif;
   padding-top: 20px;
-  width: 100vw;
 }
 
 #stop-painting {
   height: 80vh;
   margin-top: 70px;
+  
 }
 
 .reg-container {
@@ -187,7 +199,7 @@ body {
 }
 
 #final-page {
-  background-color: #C1A882;
+  /* background-color: #C1A882; */
   height: 100vh;
   text-align: center;
   padding-top: 15px;
